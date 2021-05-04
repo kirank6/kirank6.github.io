@@ -12,7 +12,7 @@
 
   p {
     color: rgb(104, 96, 96);
-    font-size:20pt;
+    font-size:15pt;
   }
   a {
     color:  rgb(153, 149, 149);
@@ -95,7 +95,7 @@
 }
 
 .article-cell-1 {
-  margin-left:400px;
+  margin-left:500px;
   margin-top:1.5px;
   width:360px;
   height:80px;
@@ -104,10 +104,10 @@
 }
 
 .article-cell-2 {
-  margin-left: 950px;
+  margin-left: 900px;
   margin-top:10px;
   width:500px;
-  height:460px;
+  height:300px;
   float:auto;
   background: #ffffff;
   
@@ -118,4 +118,9 @@
   font-size:18pt;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
+}
+
+.pop-over {
+  margin: 20px 5px;
+  display: inline-block;
 }
