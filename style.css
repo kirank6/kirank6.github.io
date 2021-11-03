@@ -1,19 +1,26 @@
   body {
-    background-color: rgb(245, 246, 247);
+    background-color: #f5f6f7;
   }
   h1 {
-    color: #C25100;
+    color: #6b452f;
     font-family: 'Lobster',cursive;
-    font-size:50pt;
+    font-size:30pt;
    }
   h2 {
-    color: rgb(134, 128, 67);
+    color: rgb(107, 102, 44);
   }
 
   p {
-    color: rgb(104, 96, 96);
+    color: rgb(41, 41, 43);
     font-size:15pt;
   }
+  p {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+  }
+
   a {
     color:  rgb(153, 149, 149);
   }
@@ -68,7 +75,7 @@
 }
 .btn-resume{
   color: rgb(9, 8, 17);
-  background-color: rgb(235, 151, 151);
+  background-color: rgb(156, 149, 149);
   margin-left: 650px;
   font-family: 'Lobster';
   font-size:30pt;
@@ -89,7 +96,7 @@
   width: 80%;
   height: 400px;
   margin-left:200px;
-  background: rgb(185, 39, 20);
+  background: rgb(173, 154, 152);
   margin: auto;
   padding: 10px;
 }
@@ -124,3 +131,4 @@
   margin: 20px 5px;
   display: inline-block;
 }
+
