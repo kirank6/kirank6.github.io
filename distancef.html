@@ -24,12 +24,29 @@
        the distance between two points on a sphere 
        (ref: <a href="https://en.wikipedia.org/wiki/Haversine_formula"> Wikipedia/Haversine_formula</a>).  
     </p>
-     
-  
-     <img src="images/haversine_ci.png" alt= 'calculate distance'/>
+     <img class="article-img" src="images/haversine_ci.jpg" alt= 'calculate distance'/>
+    <p>
+     This technique could be implemented to calculate distance from any 
+     reference location. However, to calculate location information of 
+     larger area for example whole state or country is little tricky 
+     because there could be multiple big cities as reference points. 
+     In this article, I am presenting one technique of getting location 
+     information for a large region using zip code. It is certain that
+    latitude and longitude coordinates of two points of interest could
+    be more precise to get the accurate distance however it is not 
+    convenient to get location information for a large region.
+     For example, we have location information of two points, Empire State 
+     Building, New York city (Zip code: 10001) and Willis Tower Chicago
+     (Zip code: 60606). The distance between these two zip codes 
+     can be calculated using pgeocode library as shown in the following example:
+    </p>
+    <img class="article-img" src="images/pegocode_dist.jpg" alt= 'calculate distance'/>
        
-
-
+    <p> Following zip codes from list of top 500 big cities in the 
+         US was implemented to calculate the distance of a given zip 
+         code from any of these cities. 
+    </p>
+    
 </body>
 </html>
 
