@@ -7,7 +7,7 @@
 <body>
     <h2>Getting distance feature for your dataset</h2>
 
-    <p>
+    <p class="medium">
      The importance of location information is not limited to real estate 
      dataset only; it could add value to the various domains in Machine 
      Learning such as transportation, e-commerce, geology, 
@@ -24,8 +24,8 @@
        the distance between two points on a sphere 
        (ref: <a href="https://en.wikipedia.org/wiki/Haversine_formula"> Wikipedia/Haversine_formula</a>).  
     </p>
-     <img class="article-img" src="images/haversine_ci.jpg" alt= 'calculate distance'/>
-    <p>
+     <img class="article-img" src="images/haversine_ci.jpg" class="center"/>
+    <p class="medium">
      This technique could be implemented to calculate distance from any 
      reference location. However, to calculate location information of 
      larger area for example whole state or country is little tricky 
@@ -40,26 +40,25 @@
      (Zip code: 60606). The distance between these two zip codes 
      can be calculated using pgeocode library as shown in the following example:
     </p>
-    <img class="article-img" src="images/pegocode_dist.jpg" alt= 'calculate distance'/>
+    <img class="article-img" src="images/pegocode_dist.jpg" class="center"/>
        
-    <p> Following zip codes from list of top 500 big cities in the 
+    <p class="medium"> Following zip codes from list of top 500 big cities in the 
          US was implemented to calculate the distance of a given zip 
          code from any of these cities. 
     </p>
-     <img class="article-img" src="images/df500zips.jpg" />
-    <p>
-    zip500_list = list(zip_cities['zip_code']) # list of all 500 big city zipcodes <br>
+     <img class="article-img" src="images/df500zips.jpg" class="center"/>
+      <p class="medium">    
     There should be zip code in the dataset then the distance for a 
     data point to the nearest big city in the above list is calculated in miles. 
     We are going to calculate the distance from nearest city among 500 big 
     cities in US for the following zip codes in the dataframe:
     </p>
-      <img class="article-img" src="images/new_df_zips.jpg" /> <br>
-      <img class="article-img" src="images/algo_code.jpg" /> <br>
-      <img class="article-img" src="images/final_df.jpg" /> 
-    <p>
+      <img class="article-img" src="images/new_df_zips.jpg" class="center"/> <br>
+      <img class="article-img" src="images/algo_code.jpg" class="center"/> <br>
+      <img class="article-img" src="images/final_df.jpg" class="center"/> 
+    <p class="medium">
     Finally, this distance of the location of interest from the big 
-    could be an important feature and adds value to the dataset. 
+    city could be an important feature and adds value to the dataset. 
     <p>
   
 
