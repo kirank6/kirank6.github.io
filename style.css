@@ -21,22 +21,16 @@
     font-size:15pt;
   }
 
-  p1 {
-    color: rgb(41, 41, 43);
+  #one {
+    color: rgb(34, 34, 68);
     font-size:18pt;
-  }
-   
-
-  p1 {
     margin-top: 100px;
     margin-bottom: 100px;
     margin-right: 150px;
     margin-left: 80px;
-  }
-  p1.medium {
     line-height: 1.5;
   }
-
+  
   a {
     color:  rgb(153, 149, 149);
   }
