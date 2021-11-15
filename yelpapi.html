@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h3>Extract restaurant ratings and price using Yelp API</h3>
+
+    <p id="one" class="medium">
+        Information about businesses in any neighborhood can reflect 
+        the value and popularity. Some extra features can be added in 
+        dataset extracting price and ratings of restaurants.  
+        The ratings given by people in Yelp and the prices of 
+        restaurants can be extracted using Yelp API. API key should be 
+        generated to be able to extract information from Yelp by singing 
+        up and creating an app. Following code snippet extract restaurants 
+        information from the city of Chicago: 
+    </p> <br>
+
+    <img src="images/chicago_yelp.jpg" class="center"/>
+     <br>
+     <img src="images/business_serch_yelp.jpg" class="center"/>
+
+    <p id="one" class="medium">
+        The data are in JSON format with all information about business 
+        in the searched city as shown below where you can see the ratings 
+        and price which we are interested to extract.
+    </p>
+
+    <img src="images/json_out1.jpg" class="center"/>
+
+    <p id="one" class="medium">
+       We have this detail information of 50 businesses 
+       in the city of Chicago.
+    </p>
+      <br>
+    <img src="images/counting_businesses.jpg" class="center"/>
+    
+     <p id="one" class="medium">
+       Now let’s extract restaurant ratings, price, and zip code 
+       from the raw JSON file so that these datasets could be used 
+       for given zip code.
+       </p>
+  
+     <img src="images/yelp_extraction1.jpg" class="center"/>
+     <br>
+
+      <p id="one" class="medium">
+       This is a dataframe of extracted yelp ratings 
+       and price for corresponding zip codes. 
+       </p>
+       <img src="images/yelp_extraction2.jpg" class="center"/>
+
+       <p id="one" class="medium">
+       Yelp price column contains some missing values and as well as 
+       the symbolic representation price. The more the $ symbols in
+        the price, more expensive the restaurant.  Converting price 
+        symbols and groping data by zip code to get the mean values of 
+        ratings and price for a given zip code, the final dataframe with 
+        yelp ratings and yelp price: 
+       </p>
+
+       <img src="images/yelp_extraction3.jpg" class="center"/>
+
+        <p id="one" class="medium">
+       These two features would add value to any type of 
+       dataset involving zip code. 
+       </p>
+
+       <h3> References:</h3>
+         <p id="one" class="medium">
+          <a href="https://towardsdatascience.com/ai-and-real-state-renting-in-amsterdam-part-1-5fce18238dbc"> 
+          Machine Learning and Real State: Predicting Rental Prices in Amsterdam</a>
+         </p> <br>
+            
+         <p id="one" class="medium">
+          <a href="https://python.gotrained.com/yelp-fusion-api-tutorial/"> 
+          Yelp Fusion API tutorial  </a>
+         </p> <br>   
+
+         
