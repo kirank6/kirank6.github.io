@@ -16,6 +16,12 @@
     font-size:20pt;
   }
 
+  h4 {
+    color: rgb(68, 19, 143);
+    text-align: left;
+    font-size:16pt;
+  }
+
   p {
     color: rgb(41, 41, 43);
     font-size:15pt;
